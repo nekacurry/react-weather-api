@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,600&display=swap");
+
+section#input-mood {
+  height: 40vh;
+  width: 40vw;
+  margin: 2vh;
+  padding: 20px;
+  font-size: 16px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+section#input-mood::after {
+  content: " ";
+  position: relative;
+  border-bottom: 3px solid #feefef;
+}
+section#input-mood input {
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.4em;
+  border: none;
+  border-bottom: 2px solid #68466f;
+  outline: none;
+}
+
+section#input-mood select {
+  height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+}
+section#input-mood button {
+  height: 50px;
+  width: 150px;
+  color: #68466f;
+  font-size: 1.25em;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+}
