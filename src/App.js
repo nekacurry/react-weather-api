@@ -48,7 +48,7 @@ export default class App extends Component {
   }
 
   appendNewEntry(entry) {
-    // statefully update `this.state.entries`
+    // update `this.state.entries`
     this.setState({ entries: [...this.state.entries, entry] })
   }
 
